@@ -30,7 +30,6 @@ h1{
     position: relative;
     padding-top: 0;
     width: 100%;
-    max-height: 30%;
     background-size: cover;
     opacity: 70%;
 }
@@ -46,7 +45,11 @@ img{
     margin-left: 10%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
 }
-
+@media screen and (max-width:670px){
+    .photo1{
+        margin-top: 30%;
+    }
+}
 .str1{
     width: 20%;
     height: 20%;
