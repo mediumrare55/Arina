@@ -51,6 +51,11 @@ img{
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media screen and (max-width:574px){
+    .predlog{
+        margin-left: 18%;
+    }
+}
 
 .photo1{
     margin-top: 10%;
