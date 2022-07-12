@@ -32,8 +32,13 @@ h1{
     width: 100%;
     background-size: cover;
     opacity: 70%;
+    margin-bottom:10%;
 }
-
+@media screen and (max-width:574px){
+    .obla{
+        margin-bottom: 30%;
+    }
+}
 
 img{
     height: 30%;
@@ -41,7 +46,7 @@ img{
 }
 
 .predlog{
-    margin-left: 18%;
+    margin-left: 22%;
     margin-top: -20%;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -60,11 +65,6 @@ img{
 }
 
 
-@media screen and (max-width:574px){
-    .photo1{
-        margin-top: 40%;
-    }
-}
 
 .str1{
     width: 20%;
@@ -72,17 +72,33 @@ img{
     margin-top: 30%;
 }
 
+@media screen and (max-width:574px){
+    .photo1{
+        margin-top: 40%;
+    }
+}
+
 .predlog2{
-    margin-left: 66%;
+    margin-left: 70%;
     margin-top:-40% ;
     font-family: 'Courier New', Courier, monospace;
 }
-
+@media screen and (max-width:574px){
+    .predlog2{
+        margin-left: 62%;
+    }
+}
 
 .photo2{
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 62%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width:574px){
+    .photo2{
+        margin-top: 5%;
+    }
 }
 
 .photo2:hover{
@@ -105,7 +121,7 @@ img{
 
 
 .photo3{
-    margin-top: 15%;
+    margin-top: 22%;
     margin-bottom: 5%;
     margin-left: 19%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
@@ -118,7 +134,7 @@ img{
 
 
 .line{
-    margin-top: 20%;
+    margin-top: 25%;
 }
 .inst{
     margin-top: 3%;
