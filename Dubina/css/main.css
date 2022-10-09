@@ -45,17 +45,7 @@ img{
     width: 30%;
 }
 
-.predlog{
-    margin-left: 22%;
-    margin-top: -20%;
-    font-family: 'Courier New', Courier, monospace;
-}
 
-@media screen and (max-width:574px){
-    .predlog{
-        margin-left: 18%;
-    }
-}
 
 .photo1{
     margin-top: 10%;
@@ -64,10 +54,7 @@ img{
     
 }
 
-.photo1:hover{
-    opacity: 0%;
-    transition: 0.3s;
-}
+
 
 
 
@@ -83,33 +70,21 @@ img{
     }
 }
 
-.predlog2{
-    margin-left: 70%;
-    margin-top:-40% ;
-    font-family: 'Courier New', Courier, monospace;
-}
-@media screen and (max-width:574px){
-    .predlog2{
-        margin-left: 62%;
-    }
-}
+
 
 .photo2{
-    margin-top: 10%;
+    margin-top: -10%;
     margin-left: 62%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width:574px){
     .photo2{
-        margin-top: 5%;
+        margin-top: -10%;
     }
 }
 
-.photo2:hover{
-    opacity: 0%;
-    transition: 0.3s;
-}
+
 
 .str2{
     width: 20%;
@@ -118,24 +93,16 @@ img{
     margin-top: 3%;
 }
 
-.predlog3{
-    margin-left: 30%;
-    margin-top: -25%;
-    font-family: 'Courier New', Courier, monospace;
-}
 
 
 .photo3{
-    margin-top: 22%;
+    margin-top: -15%;
     margin-bottom: 5%;
     margin-left: 19%;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
 }
 
-.photo3:hover{
-    opacity: 0%;
-    transition: 0.3s;
-}
+
 
 
 .line{
